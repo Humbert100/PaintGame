@@ -1,5 +1,6 @@
 """Paint, for drawing shapes.
-Programador : Humberto Alejandro Rosas Téllez (HART) 
+Author: Humberto Alejandro Rosas Téllez
+Author2: Mariana Edith Ramírez Navarrete
 """
 import turtle
 
