@@ -28,10 +28,18 @@ def square(start, end):
 
     end_fill()
 
-
 def circle(start, end):
     """Draw circle from start to end."""
-    pass  # TODO
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+    """Se dibuja el círculo en 30 pasos cada uno con un ángulo de 12°"""
+    for count in range(30):
+        forward(end.x - start.x)
+        left(12)
+
+    end_fill()
 
 
 def rectangle(start, end):
